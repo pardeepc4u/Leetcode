@@ -1,6 +1,12 @@
 package com.pk.leetcode;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
 class StringCompress {
+
+    Map m = new TreeMap();
 
     public static void main(String[] args) {
         char[] input = {'a','a','b','b','b','c','c','c'};
